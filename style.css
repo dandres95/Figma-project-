@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 7%);
+}
+
+.container1 {
+  width: 1700px;
+  height: 648px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.menu {
+  width: 56px;
+  height: 648px;
+  background-color: hsl(0, 87%, 9%);
+  opacity: 0.7;
+}
+
+.icon1 {
+  margin-bottom: 90px;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.icon2 {
+  margin-bottom: 90px;
+  margin-left: 20px;
+}
+
+.icon3 {
+  margin-bottom: 90px;
+  margin-left: 20px;
+}
+
+.icon4 {
+  margin-bottom: 90px;
+  margin-left: 15px;
+}
+
+.icon5 {
+  margin-left: 15px;
+}
+
+.settings {
+  height: 30px;
+  width: 100px;
+  margin-left: 1300px;
+  margin-bottom: 130px;
+}
+
+.principal h3 {
+  width: 632px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  line-height: 32px;
+}
+
+.principal {
+  margin-left: 180px;
+  margin-top: 30px;
+}
+
+.principal h2 {
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px;
+  color: white;
+}
+
+.principal h1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: aqua;
+  background: rgba(29, 29, 29, 0.5);
+  width: 95px;
+  border-radius: 0px 8px;
+  padding: 4px 8px;
+}
+
+.button1 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  border-color: rgb(0, 233, 241);
+  border-width: 1.7px;
+  background-color: transparent;
+  color: white;
+}
+
+.options {
+  margin-top: 90px;
+  margin-left: 600px;
+}
+.button2 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: white;
+  border-width: 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.button3 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  border-width: 1px;
+}
+.button4 {
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  border-width: 1px;
+  margin-left: 10px;
+}
+
+.releases h1 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.releases {
+  display: flex;
+}
+
+.right {
+  width: 24px;
+  height: 24px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+.container2 {
+  display: flex;
+  width: 1700px;
+}
+
+.card {
+  width: 440px;
+  height: 440px;
+  margin-left: 50px;
+  filter: brightness(80%);
+  margin-right: 25px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card h1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: aqua;
+  background: rgba(29, 29, 29, 0.5);
+  width: 70px;
+  border-radius: 0px 8px;
+  padding: 4px 8px;
+  margin-top: 280px;
+  margin-left: 20px;
+}
+
+.card h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: white;
+  margin-left: 15px;
+}
+
+.rating1 {
+  margin-left: 20px;
+}
+
+.scroll {
+  width: 160px;
+  height: 440px;
+  background-color: rgba(0, 0, 0, 0.808);
+  opacity: 0.4;
+  margin-left: 10px;
+}
+
+.scroll img {
+  margin-top: 250px;
+  margin-left: 40px;
+}
+.container3 {
+  width: 1700px;
+  display: flex;
+  margin-left: 50px;
+}
+
+.featured {
+  display: flex;
+}
+
+.featured h1 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.got {
+  width: 512px;
+  height: 736px;
+  background-image: url("./got.png");
+  background-size: cover;
+}
+
+.got h1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: aqua;
+  background: rgba(29, 29, 29, 0.5);
+  width: 70px;
+  border-radius: 0px 8px;
+  padding: 4px 8px;
+  margin-top: 580px;
+  margin-left: 20px;
+}
+
+.got h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: white;
+  margin-left: 15px;
+}
+
+.falcon {
+  width: 512px;
+  height: 736px;
+  background-image: url("./falcon.png");
+}
+
+.falcon h1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: aqua;
+  background: rgba(29, 29, 29, 0.5);
+  width: 70px;
+  border-radius: 0px 8px;
+  padding: 4px 8px;
+  margin-top: 580px;
+  margin-left: 20px;
+}
+
+.falcon h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: white;
+  margin-left: 15px;
+}
+
+.wandavision {
+  width: 512px;
+  height: 736px;
+  background-image: url("./wandavision.png");
+}
+
+.wandavision h1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: aqua;
+  background: rgba(29, 29, 29, 0.5);
+  width: 70px;
+  border-radius: 0px 8px;
+  padding: 4px 8px;
+  margin-top: 580px;
+  margin-left: 20px;
+}
+
+.wandavision h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: white;
+  margin-left: 15px;
+}
+
+.fear {
+  width: 150px;
+  height: 736px;
+  background-color: orange;
+}
+
+.fear h1 {
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: aqua;
+  background: rgba(29, 29, 29, 0.5);
+  width: 70px;
+  border-radius: 0px 8px;
+  padding: 4px 8px;
+  margin-top: 580px;
+  margin-left: 20px;
+}
+
+.fear h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  color: white;
+  margin-left: 15px;
+}
+.scroll2 {
+  width: 100px;
+  height: 736px;
+  background-color: rgba(0, 0, 0, 0.808);
+  opacity: 0.4;
+  margin-left: 10px;
+}
+
+.scroll2 img {
+  margin-top: 370px;
+  margin-left: 40px;
+}
